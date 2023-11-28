@@ -31,7 +31,7 @@ svg > *{
     animation: rotate 5s linear infinite;
 }
 @keyframes rotate{
-  from {
+  0% {
     fill:rgb(255, 150, 255);
     stroke:rgb(150, 0, 0);
   }
@@ -47,7 +47,7 @@ svg > *{
     fill:rgb(150, 255, 255);
     stroke:rgb(0, 150, 0);
   }
-  to{
+  100% {
     fill:rgb(255, 150, 255);
     stroke:rgb(150, 0, 0);
   }
